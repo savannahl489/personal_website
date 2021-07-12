@@ -1,49 +1,17 @@
 ---
-author: Hugo Authors
-date: "2019-03-05"
-description: Guide to emoji usage in Hugo
+author: Savannah L
+date: "2021-07-12"
+description: Sushi Iwa
 tags:
-- emoji
-title: Emoji Support
+- Sushi
+- Apex
+- North Carolina
+title: Sushi Iwa
 ---
+This past Friday, my family and I went to Sushi Iwa, located in Apex, NC. Having been there a few times before, we knew that they were famous for their sushi-- given in the name-- but they also had good rice plates/ dishes. This time around, we tried the mongolian beef which was just fantastic! Not only was the meat tender and not at all chewy or dry, the sauce tasted very authentic. In addition to the beef were bits of onion and what I would assume are small glass noodles. With this dish came your choice of rice-- white, brown or fried-- as well as a soup or a salad.
 
-Emoji can be enabled in a Hugo project in a number of ways.
+Sushi Iwa sells their sushi rolls as a buy one get one free deal, so of course we had to get two rolls. Sweet Dreams and Fantasy Eel were the ones that we tried and they were divine. While outward appearance makes them similar, the Sweet Dreams roll contained tempura shrimp that balanced out the salt content of the bbq eel.
 
-<!--more-->
+Overall, the service was quite good. It was a Friday evening and so the restaurant was packed, however, we chose to order out and they were able to note down our order quickly and packaged our food quite efficiently. The waiting time that they gave us was also very accurate despite the number of customers they were serving and was pretty reasonable as well.
 
-The [`emojify`](https://gohugo.io/functions/emojify/) function can be called directly in templates or [Inline Shortcodes](https://gohugo.io/templates/shortcode-templates/#inline-shortcodes).
-
-To enable emoji globally, set `enableEmoji` to `true` in your site's [configuration](https://gohugo.io/getting-started/configuration/) and then you can type emoji shorthand codes directly in content files; e.g.
-
-<p><span class="nowrap"><span class="emojify">🙈</span> <code>:see_no_evil:</code></span>  <span class="nowrap"><span class="emojify">🙉</span> <code>:hear_no_evil:</code></span>  <span class="nowrap"><span class="emojify">🙊</span> <code>:speak_no_evil:</code></span></p>
-<br>
-
-The [Emoji cheat sheet](http://www.emoji-cheat-sheet.com/) is a useful reference for emoji shorthand codes.
-
----
-
-**N.B.** The above steps enable Unicode Standard emoji characters and sequences in Hugo, however the rendering of these glyphs depends on the browser and the platform. To style the emoji you can either use a third party emoji font or a font stack; e.g.
-
-{{< highlight html >}}
-.emoji {
-font-family: Apple Color Emoji, Segoe UI Emoji, NotoColorEmoji, Segoe UI Symbol, Android Emoji, EmojiSymbols;
-}
-{{< /highlight >}}
-
-{{< css.inline >}}
-
-<style>
-.emojify {
-	font-family: Apple Color Emoji, Segoe UI Emoji, NotoColorEmoji, Segoe UI Symbol, Android Emoji, EmojiSymbols;
-	font-size: 2rem;
-	vertical-align: middle;
-}
-@media screen and (max-width:650px) {
-  .nowrap {
-    display: block;
-    margin: 25px 0;
-  }
-}
-</style>
-
-{{< /css.inline >}}
+The [`menu`](http://www.sushiiwa.org/) can be accessed online. They do dine-in as well as curb-side pickup.

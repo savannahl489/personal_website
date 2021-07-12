@@ -5,8 +5,8 @@ aliases:
 - blog
 - showcase
 - docs
-author: Hugo Authors
+author: Savannah L
 tags:
 - index
-title: Posts
+title: Restaurants
 ---
